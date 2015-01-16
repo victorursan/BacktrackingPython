@@ -9,5 +9,5 @@ class Console(object):
   def run():
     back_rec = BacktrackingRec()
     back = Backtracking()
-    back_rec.backtracking(5, [1, 2, 3, 4, 5, 6, 7])
+    # back_rec.backtracking(5, [1, 2, 3, 4, 5, 6, 7])
     back.backtracking(5, [1, 2, 3, 4, 5, 6, 7])

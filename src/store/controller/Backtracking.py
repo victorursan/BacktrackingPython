@@ -11,7 +11,7 @@ class Backtracking(object):
     sol = "["
     for i in x[:-1]:
       sol += str(lst[i]) + ", "
-    sol += str(lst[-1]) + "]"
+    sol += str(lst[x[-1]]) + "]"
     print(sol)
 
   @staticmethod
